@@ -1,6 +1,5 @@
 <div align="center">
 
-# 🎓 CampusClubManager
 
 <h1>🎓 CampusClubManager</h1>
 
