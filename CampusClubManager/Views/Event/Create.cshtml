@@ -1,0 +1,35 @@
+﻿@model CampusClubManager.Models.Event
+@using CampusClubManager.Models
+
+<h2>Create Event</h2>
+
+<form method="post">
+
+    <div class="form-group">
+        <label>Event Name</label>
+        <input type="text" name="EventName" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Event Date</label>
+        <input type="datetime-local" name="EventDate" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Location</label>
+        <input type="text" name="Location" class="form-control" />
+    </div>
+
+    <div class="form-group">
+        <label>Club</label>
+        <select name="ClubId" class="form-control">
+            @foreach (var club in ViewBag.Clubs as List<Club>)
+            {
+                <option value="@club.ClubId">@club.ClubName</option>
+            }
+        </select>
+    </div>
+
+    <br />
+    <button type="submit" class="btn btn-success">Save</button>
+</form>

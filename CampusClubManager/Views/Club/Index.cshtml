@@ -1,0 +1,30 @@
+﻿@model List<CampusClubManager.Models.Club>
+
+<h2>Club List</h2>
+
+<form method="get">
+    <input type="text" name="searchString" placeholder="Search club..." />
+    <button type="submit">Search</button>
+</form>
+
+<a href="/Club/Create">New Club</a>
+
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Actions</th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>@item.ClubName</td>
+        <td>@item.Description</td>
+        <td>
+            <a href="/Club/Edit/@item.ClubId">Edit</a> |
+            <a href="/Club/Delete/@item.ClubId">Delete</a>
+        </td>
+    </tr>
+}
+</table>

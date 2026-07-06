@@ -1,0 +1,15 @@
+﻿@model CampusClubManager.Models.Club
+
+<h2>Edit Club</h2>
+
+<form method="post">
+    <input type="hidden" name="ClubId" value="@Model.ClubId" />
+
+    <label>Club Name</label>
+    <input type="text" name="ClubName" value="@Model.ClubName" />
+
+    <label>Description</label>
+    <input type="text" name="Description" value="@Model.Description" />
+
+    <button type="submit">Update</button>
+</form>

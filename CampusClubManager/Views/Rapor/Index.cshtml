@@ -1,0 +1,58 @@
+﻿@model List<CampusClubManager.Models.Event>
+
+@{
+    ViewData["Title"] = "Rapor";
+}
+
+<h2>Etkinlik Raporu</h2>
+
+<!-- 🔎 Filtre Formu -->
+<form method="get" asp-controller="Rapor" asp-action="Index" class="mb-3">
+    <input type="text"
+           name="clubName"
+           class="form-control"
+           placeholder="Kulüp adı giriniz..." />
+
+    <button type="submit" class="btn btn-primary mt-2">
+        Filtrele
+    </button>
+</form>
+
+<hr />
+
+<!-- 📋 Liste -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Etkinlik Adı</th>
+            <th>Tarih</th>
+            <th>Açıklama</th>
+            <th>Kulüp</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @if (Model != null && Model.Count > 0)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.EventName</td>
+                    <td>@item.EventDate</td>
+                 
+                    <td>
+                        @(item.Club != null ? item.Club.ClubName : "-")
+                    </td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4" class="text-center text-danger">
+                    Veri bulunamadı
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

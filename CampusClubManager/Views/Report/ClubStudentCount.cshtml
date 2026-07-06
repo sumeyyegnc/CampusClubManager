@@ -1,0 +1,21 @@
+﻿@model List<CampusClubManager.Models.campuslistview>
+
+<h2>Club Student Count</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Club</th>
+            <th>Student Count</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.ClubName</td>
+            <td>@item.Count</td>
+        </tr>
+    }
+    </tbody>
+</table>

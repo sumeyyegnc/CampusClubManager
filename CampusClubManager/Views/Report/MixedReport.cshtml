@@ -1,0 +1,27 @@
+﻿@model List<CampusClubManager.Models.campuslistview>
+
+<h2>Mixed Report</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Student</th>
+            <th>Club</th>
+            <th>Event</th>
+            <th>Date</th>
+            <th>Location</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.StudentName</td>
+            <td>@item.ClubName</td>
+            <td>@item.EventName</td>
+            <td>@item.EventDate</td>
+            <td>@item.Location</td>
+        </tr>
+    }
+    </tbody>
+</table>

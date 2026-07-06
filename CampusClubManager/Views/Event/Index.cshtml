@@ -1,0 +1,29 @@
+﻿@model List<CampusClubManager.Models.Event>
+
+<h2>Event List</h2>
+
+<a href="/Event/Create" class="btn btn-primary">New Event</a>
+
+<table class="table table-bordered mt-3">
+    <tr>
+        <th>Event Name</th>
+        <th>Date</th>
+        <th>Location</th>
+        <th>Club</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.EventName</td>
+            <td>@item.EventDate</td>
+            <td>@item.Location</td>
+            <td>@item.ClubId</td>
+            <td>
+                <a href="/Event/Edit/@item.EventId" class="btn btn-warning">Edit</a>
+                <a href="/Event/Delete/@item.EventId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
