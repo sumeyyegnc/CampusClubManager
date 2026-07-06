@@ -1,8 +1,6 @@
+🎓 CampusClubManager
 CampusClubManager is a web-based club management system developed with **ASP.NET Core MVC**. The application simplifies the management of university clubs by allowing administrators to organize clubs, events, announcements, members, and applications through an intuitive admin dashboard.
 
----
-
-## 🚀 Features
 
 ### 👤 Authentication & Authorization
 
@@ -18,40 +16,6 @@ CampusClubManager is a web-based club management system developed with **ASP.NET
 * Club information management
 * Category support
 * Club listing
-
-### 📅 Event Management
-
-* Add new events
-* Edit event details
-* Delete events
-* View upcoming events
-
-### 📢 Announcement Management
-
-* Publish announcements
-* Update announcements
-* Delete announcements
-* Display latest announcements
-
-### 👥 Member Management
-
-* Member registration
-* Member listing
-* Member information management
-
-### 📝 Club Applications
-
-* Student application management
-* Review applications
-* Approve or reject requests
-
-### 📊 Admin Dashboard
-
-* Overview statistics
-* Quick navigation
-* Responsive admin panel
-
----
 
 ## 🛠 Technologies Used
 
