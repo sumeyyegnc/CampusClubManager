@@ -3,7 +3,6 @@
 
 <h1>🎓 CampusClubManager</h1>
 
-<p><strong>A web-based university club management system built with ASP.NET Core MVC.</strong></p>
 
 </div>
 
