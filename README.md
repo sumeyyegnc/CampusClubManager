@@ -1,4 +1,5 @@
-🎓 CampusClubManager
+<img width="1920" height="1080" alt="Ekran Görüntüsü (93)" src="https://github.com/user-attachments/assets/ebbc6852-38a6-472c-8c84-37e9a8ababde" /># 🎓 CampusClubManager
+
 CampusClubManager is a web-based club management system developed with **ASP.NET Core MVC**. The application simplifies the management of university clubs by allowing administrators to organize clubs, events, announcements, members, and applications through an intuitive admin dashboard.
 
 
@@ -17,6 +18,7 @@ CampusClubManager is a web-based club management system developed with **ASP.NET
 * Category support
 * Club listing
 
+
 ## 🛠 Technologies Used
 
 * ASP.NET Core MVC
@@ -30,26 +32,26 @@ CampusClubManager is a web-based club management system developed with **ASP.NET
 * JavaScript
 * LINQ
 
----
-
-
 
 ## 📸 Screenshots
 
+
 ### Home Page
 
-
-<img width="1920" height="1080" alt="Ekran Görüntüsü (90)" src="https://github.com/user-attachments/assets/c7ba4516-4509-49d2-ad73-5817797c17c1" />
+<img width="1920" height="1080" alt="Ekran Görüntüsü (90)" src="https://github.com/user-attachments/assets/2f164148-f372-419f-827a-7aebe3264002" />
 
 
 ### Admin Dashboard
 
-<img width="1920" height="1080" alt="Ekran Görüntüsü (93)" src="https://github.com/user-attachments/assets/87d0957b-7d75-4a93-b795-df44ad1cdad3" />
+<img width="1920" height="1080" alt="Ekran Görüntüsü (93)" src="https://github.com/user-attachments/assets/d303f617-b07d-4f0f-816c-63def0eb2d6f" />
+
 
 ### Club Management
 
-<img width="1920" height="1080" alt="Ekran Görüntüsü (92)" src="https://github.com/user-attachments/assets/357500b6-92a2-4e5b-b2c5-154e5c69c731" />
+<img width="1920" height="1080" alt="Ekran Görüntüsü (93)" src="https://github.com/user-attachments/assets/a36eddb5-17c3-4ca5-b3f3-e286a9cb064f" />
+
 
 ### Event Management
+<img width="1920" height="1080" alt="Ekran Görüntüsü (94)" src="https://github.com/user-attachments/assets/17e02f94-60ca-495d-8b7d-f032ad7359ef" />
 
-<img width="1920" height="1080" alt="Ekran Görüntüsü (95)" src="https://github.com/user-attachments/assets/cb6367f5-55e1-4cb8-b619-0a717bf321ad" />
+
