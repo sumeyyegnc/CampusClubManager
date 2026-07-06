@@ -1,6 +1,7 @@
-<img width="1920" height="1080" alt="Ekran Görüntüsü (93)" src="https://github.com/user-attachments/assets/ebbc6852-38a6-472c-8c84-37e9a8ababde" /># 🎓 CampusClubManager
+🎓 CampusClubManager
 
-CampusClubManager is a web-based club management system developed with **ASP.NET Core MVC**. The application simplifies the management of university clubs by allowing administrators to organize clubs, events, announcements, members, and applications through an intuitive admin dashboard.
+CampusClubManager is a web-based club management system developed with ASP.NET Core MVC. The application simplifies the management of university clubs by allowing administrators to organize clubs, events, announcements, members, and applications through an intuitive admin dashboard.
+
 
 
 ### 👤 Authentication & Authorization
